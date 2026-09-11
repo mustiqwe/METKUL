@@ -1,0 +1,23 @@
+[METKUL boot] CSV: /home/mustafa/Masaüstü/nigga/metkul_hava_durumu.csv
+[METKUL boot] Panel http://0.0.0.0:8502
+ * Serving Flask app 'app'
+ * Debug mode: off
+WARNING: This is a development server. Do not use it in a production deployment. Use a production WSGI server instead.
+ * Running on all addresses (0.0.0.0)
+ * Running on http://127.0.0.1:8502
+ * Running on http://192.168.1.7:8502
+Press CTRL+C to quit
+[METKUL fetch] weather.com ayrıştırılamadı (weather.com JSON alanları ayrıştırılamadı (bulunan: [], sayfa 415051 byte)), IZMIR30 deneniyor...
+[METKUL fetch] IZMIR30 OK: {'temp': 25.1, 'humidity': 68.0, 'windSpeed': 0.0, 'windGust': 0.0, 'pressure': 1016.19, 'precipTotal': 0.0, 'kaynak': 'IZMIR30/METKUL (weather.com ailesi)'}
+[METKUL log] 11-09-2026 21:16:02 -> {'temp': 25.1, 'humidity': 68.0, 'windSpeed': 0.0, 'windGust': 0.0, 'pressure': 1016.19, 'precipTotal': 0.0, 'kaynak': 'IZMIR30/METKUL (weather.com ailesi)'}
+127.0.0.1 - - [11/Sep/2026 21:16:09] "GET /api/current HTTP/1.1" 200 -
+127.0.0.1 - - [11/Sep/2026 21:16:09] "GET /api/history HTTP/1.1" 200 -
+127.0.0.1 - - [11/Sep/2026 21:16:18] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [11/Sep/2026 21:16:18] "GET /api/current HTTP/1.1" 200 -
+127.0.0.1 - - [11/Sep/2026 21:16:18] "GET /api/history HTTP/1.1" 200 -
+127.0.0.1 - - [11/Sep/2026 21:16:32] "GET /api/current HTTP/1.1" 200 -
+127.0.0.1 - - [11/Sep/2026 21:16:56] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [11/Sep/2026 21:16:56] "GET /api/current HTTP/1.1" 200 -
+127.0.0.1 - - [11/Sep/2026 21:16:56] "GET /api/history HTTP/1.1" 200 -
+127.0.0.1 - - [11/Sep/2026 21:17:57] "GET /api/current HTTP/1.1" 200 -
+127.0.0.1 - - [11/Sep/2026 21:17:57] "GET /api/history HTTP/1.1" 200 -
